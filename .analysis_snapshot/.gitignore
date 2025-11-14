@@ -1,0 +1,14 @@
+node_modules
+.DS_Store
+dist
+.output
+.env
+.env.local
+.convex
+*.log
+app.config.timestamp*.js
+vite.config.timestamp*.js
+vinxi.config.timestamp*.js
+
+# Local Netlify folder
+.netlify
