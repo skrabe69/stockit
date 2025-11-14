@@ -1,0 +1,2 @@
+# Timestamp files are created by Vinxi/Vite during config hot-reload
+# They are auto-ignored by .gitignore and can be safely deleted
