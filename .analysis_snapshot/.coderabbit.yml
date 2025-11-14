@@ -1,0 +1,23 @@
+# CodeRabbit configuration for automated code reviews
+# This enables AI-powered code review on pull requests
+
+language: typescript
+review:
+  collapseDeletedFiles: true
+  ignoreFiles:
+    - "**/*.generated.*"
+    - "convex/_generated/**"
+    - "node_modules/**"
+    - "dist/**"
+  suggestions:
+    - type: critical
+      title: "Security vulnerabilities"
+    - type: important
+      title: "Performance issues"
+    - type: minor
+      title: "Code quality improvements"
+  
+# Automatically review PRs for the stockit app
+repos:
+  - owner: "*"
+    name: "stockit"
